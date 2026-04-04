@@ -3,7 +3,12 @@ export const titleSlide = {
   career: "Carrera: Técnico en Desarrollo de Software",
   date: "Abril de 2026",
   topic: "Roles profesionales de la ciberseguridad",
-  members: ["Nombre 1", "Nombre 2", "Nombre 3", "Nombre 4", "Nombre 5", "Nombre 6"],
+  members: [    "Cantero Esteban",
+    "Mamani Juan",
+    "Belmonte Ian",
+    "Araujo Facundo",
+    "Ocampo Cristian",
+    "Barocchi Ignacio",],
 };
 
 export const sourcesData = [
