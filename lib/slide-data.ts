@@ -195,6 +195,15 @@ export const timelineData = [
     description: "Nuevos sistemas de cifrado preparados para computadoras cuánticas",
     icon: "shield",
   },
+  {
+    year: 2026,
+    dateLabel: "7 de abril",
+    title: "Project Glasswing",
+    description:
+      "Iniciativa orientada a proteger el software crítico a nivel global frente al rápido avance de modelos de IA",
+    icon: "sparkles",
+    featured: true,
+  },
 ];
 
 export const trendsData = {
@@ -401,5 +410,17 @@ export const conclusionData = {
     "Las certificaciones y habilidades prácticas son esenciales para el desarrollo profesional",
     "Con el aumento de ataques informáticos, las organizaciones necesitan cada vez más profesionales",
   ],
-  // cta: "El futuro de la seguridad digital está en tus manos",
+  cta: "El futuro de la seguridad digital está en tus manos",
+};
+
+export const FEEDBACK_FORM_URL =
+  "https://docs.google.com/forms/d/e/1FAIpQLSdMrCaRHBT4xeMWsE46xK7EAfweev7DRj5FuRYYoI2Kr9e98Q/viewform?usp=publish-editor";
+
+export const feedbackSlideData = {
+  title: "Tu feedback",
+  body:
+    "Compartinos comentarios, preguntas o sugerencias para seguir mejorando nuestras presentaciones.",
+  linkLabel: "Abrir formulario de feedback",
+  credit:
+    "Créditos: la idea del formulario de feedback corresponde a Mario Ibañez (Grupo 3).",
 };

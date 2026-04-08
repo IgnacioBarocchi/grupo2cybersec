@@ -19,6 +19,7 @@ import { CertificationsSlide } from "./slides/CertificationsSlide";
 import { StatsSlide } from "./slides/StatsSlide";
 import { RolesSlide } from "./slides/RolesSlide";
 import { ConclusionSlide } from "./slides/ConclusionSlide";
+import { FeedbackSlide } from "./slides/FeedbackSlide";
 
 const slides = [
   { id: "title", component: TitleSlide, title: "Portada" },
@@ -36,6 +37,7 @@ const slides = [
   { id: "stats", component: StatsSlide, title: "Mercado" },
   { id: "roles", component: RolesSlide, title: "Puestos" },
   { id: "conclusion", component: ConclusionSlide, title: "Conclusión" },
+  { id: "feedback", component: FeedbackSlide, title: "Retroalimentación" },
 ];
 
 export function Slideshow() {
