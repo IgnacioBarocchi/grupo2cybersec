@@ -59,7 +59,7 @@ export function OrganizationSlide() {
         </motion.div>
 
         {/* Callout */}
-        <motion.div
+        {/* <motion.div
           variants={itemVariants}
           className="bg-gradient-to-r from-primary/20 to-primary/10 border border-primary/30 rounded-lg p-6 mt-8"
           initial="hidden"
@@ -67,7 +67,7 @@ export function OrganizationSlide() {
           transition={{ delay: 0.7 }}
         >
           <p className="text-2xl font-bold text-primary text-balance">{organizationSlide.callout}</p>
-        </motion.div>
+        </motion.div> */}
       </div>
     </SlideWrapper>
   );

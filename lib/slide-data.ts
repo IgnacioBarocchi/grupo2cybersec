@@ -75,7 +75,7 @@ export const transitionSlide = {
 };
 
 export const organizationSlide = {
-  title: "Organización en empresas reales",
+  title: "Estructura tradicional de equipos de ciberseguridad",
   points: [
     {
       text: "Las empresas dividen la ciberseguridad en áreas especializadas:",
@@ -87,8 +87,13 @@ export const organizationSlide = {
         "GRC: normas, auditorías y gestión de riesgo",
       ],
     },
+    {
+      text: "Nota: Este es un modelo de referencia.",
+      subpoints: [
+        "En la práctica, los equipos pueden combinarse (ej: Blue + Red → Purple Team), tercerizarse (SOC), o integrarse con áreas como DevOps o Platform.",
+      ],
+    },
   ],
-  callout: "No es un solo rol, es un ecosistema",
 };
 
 export const depthTrendsSlide = {
@@ -410,7 +415,7 @@ export const conclusionData = {
     "Las certificaciones y habilidades prácticas son esenciales para el desarrollo profesional",
     "Con el aumento de ataques informáticos, las organizaciones necesitan cada vez más profesionales",
   ],
-  cta: "El futuro de la seguridad digital está en tus manos",
+  // cta: "El futuro de la seguridad digital está en tus manos",
 };
 
 export const FEEDBACK_FORM_URL =

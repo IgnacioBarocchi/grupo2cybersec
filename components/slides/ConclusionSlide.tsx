@@ -43,7 +43,7 @@ export function ConclusionSlide() {
             </motion.div>
           ))}
         </div>
-
+{/* 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -51,7 +51,7 @@ export function ConclusionSlide() {
           className="text-2xl md:text-3xl font-semibold text-primary text-balance"
         >
           {conclusionData.cta}
-        </motion.p>
+        </motion.p> */}
       </div>
     </SlideWrapper>
   );
