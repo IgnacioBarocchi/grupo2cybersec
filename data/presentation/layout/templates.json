@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "templates": [
+    {
+      "id": "template-a-data",
+      "label": "Data / Statistic",
+      "backgroundToken": "--color-azul-base",
+      "textToken": "--color-blanco",
+      "accentToken": "--color-azul-claro"
+    },
+    {
+      "id": "template-b-concept",
+      "label": "Concept / Definition",
+      "backgroundToken": "--color-blanco",
+      "textToken": "--color-gris-oscuro",
+      "accentToken": "--color-azul-claro"
+    },
+    {
+      "id": "template-c-comparison",
+      "label": "Comparison / Contrast",
+      "backgroundToken": "--color-gris-oscuro",
+      "textToken": "--color-blanco",
+      "accentToken": "--color-azul-claro"
+    },
+    {
+      "id": "template-d-process",
+      "label": "Narrative / Process",
+      "backgroundToken": "--color-blanco",
+      "textToken": "--color-gris-oscuro",
+      "accentToken": "--color-azul-claro"
+    },
+    {
+      "id": "template-e-section-break",
+      "label": "Section Break",
+      "backgroundToken": "--color-azul-base",
+      "textToken": "--color-blanco",
+      "accentToken": "--color-azul-claro"
+    }
+  ],
+  "spacing": {
+    "safeMarginPercent": 8,
+    "headingToBodyPx": 32,
+    "bodyToBodyPx": 24,
+    "sectionGapPx": 40
+  }
+}

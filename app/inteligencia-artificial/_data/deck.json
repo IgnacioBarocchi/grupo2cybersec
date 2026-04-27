@@ -1,0 +1,600 @@
+{
+  "id": "ia-presentacion-2026",
+  "title": "Inteligencia Artificial",
+  "locale": "es-AR",
+  "metadata": {
+    "institution": "Facultad de Ingeniería",
+    "course": "Grupo 2 - Ciberseguridad"
+  },
+  "slides": [
+    {
+      "id": "slide-001",
+      "order": 1,
+      "type": "section-break",
+      "templateId": "template-e",
+      "content": {
+        "title": "Inteligencia Artificial",
+        "subtitle": "Fundamentos, evolución y realidad argentina",
+        "showDecorator": true
+      }
+    },
+    {
+      "id": "slide-002",
+      "order": 2,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "¿Qué es la inteligencia artificial?",
+        "body": "Un conjunto de sistemas capaces de realizar tareas que típicamente requieren inteligencia humana. Esto incluye aprendizaje de patrones, reconocimiento, toma de decisiones y procesamiento de información.",
+        "eyebrow": "¿De qué hablamos?",
+        "highlightTerms": [
+          "inteligencia humana",
+          "aprendizaje"
+        ]
+      }
+    },
+    {
+      "id": "slide-003",
+      "order": 3,
+      "type": "section-break",
+      "templateId": "template-e",
+      "content": {
+        "title": "Antecedentes",
+        "subtitle": "Del pensamiento mecánico al cálculo simbólico",
+        "showDecorator": true
+      }
+    },
+    {
+      "id": "slide-004",
+      "order": 4,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "Leibniz (1646–1716)",
+        "body": "Gottfried Wilhelm Leibniz imaginó una characteristica universalis: un lenguaje formal en el que razonar equivaldría a calcular. Esa intuición —pensar como cálculo simbólico— es la que retoma Alan Turing dos siglos después.",
+        "highlightTerms": [
+          "characteristica universalis",
+          "calcular"
+        ]
+      }
+    },
+    {
+      "id": "slide-005",
+      "order": 5,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "Babbage y Lovelace (1810–1860)",
+        "body": "El caso más directo es Charles Babbage. Diseñó la máquina analítica, un dispositivo mecánico programable que ya incluía elementos que hoy reconocerías sin esfuerzo: memoria, unidad de cálculo y control mediante tarjetas perforadas. No era simplemente una calculadora: era una arquitectura general de cómputo, aunque nunca llegó a construirse completamente. La figura más sugerente en relación con la IA es Ada Lovelace. En sus notas sobre la máquina de Babbage introduce una idea decisiva: una máquina podría manipular símbolos más allá de los números, siempre que esos símbolos se formalicen.",
+        "highlightTerms": [
+          "máquina analítica",
+          "Ada Lovelace"
+        ]
+      }
+    },
+    {
+      "id": "slide-006",
+      "order": 6,
+      "type": "data",
+      "templateId": "template-a",
+      "content": {
+        "title": "George Boole (1815–1864)",
+        "stat": "1847",
+        "body": "Su álgebra booleana convierte el razonamiento en operaciones formales (verdadero/falso), lo que después se traduce directamente en circuitos digitales y, en última instancia, en computación.",
+        "source": "Álgebra booleana"
+      }
+    },
+    {
+      "id": "slide-007",
+      "order": 7,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "Turing y Wiener (1930–1950)",
+        "body": "Origen (1940–1950): surge la idea de máquinas que puedan “pensar” en el cruce entre lógica matemática y computación. Alan Turing propone que el pensamiento puede formalizarse como cálculo simbólico, mientras Norbert Wiener desarrolla la cibernética: sistemas que se autorregulan mediante retroalimentación.",
+        "highlightTerms": [
+          "Alan Turing",
+          "cibernética"
+        ]
+      }
+    },
+    {
+      "id": "slide-008",
+      "order": 8,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "Síntesis: el negativo histórico",
+        "body": "En síntesis: no había “inteligencia artificial” en sentido moderno, pero sí una intuición muy precisa —casi arquitectónica— de que el pensamiento podía mecanizarse si se lo reducía a símbolos y reglas. Esa idea es el negativo histórico de todo lo que vino después.",
+        "highlightTerms": [
+          "símbolos",
+          "reglas"
+        ]
+      }
+    },
+    {
+      "id": "slide-009",
+      "order": 9,
+      "type": "section-break",
+      "templateId": "template-e",
+      "content": {
+        "title": "Evolución técnica",
+        "subtitle": "De la teoría a la práctica",
+        "showDecorator": true
+      }
+    },
+    {
+      "id": "slide-010",
+      "order": 10,
+      "type": "process",
+      "templateId": "template-d",
+      "content": {
+        "title": "Línea temporal: 1950–1980",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Nacimiento formal (1956)",
+            "description": "En la conferencia de Dartmouth se establece el campo como disciplina. John McCarthy acuña el término “inteligencia artificial”. Predomina una confianza fuerte: la inteligencia humana parece traducible a reglas explícitas."
+          },
+          {
+            "number": 2,
+            "title": "Primeros sistemas (1960–1970)",
+            "description": "Se desarrollan programas simbólicos: resolución de problemas, juegos, demostración de teoremas. Sistemas como ELIZA simulan diálogo. Sin embargo, dependen de reglas rígidas y fallan fuera de entornos controlados."
+          },
+          {
+            "number": 3,
+            "title": "Invierno de la IA (1970–1990)",
+            "description": "Las expectativas superan a los resultados. Limitaciones computacionales, escasez de datos y fragilidad de los modelos provocan recortes de financiamiento. Aun así, sobreviven líneas como redes neuronales tempranas y sistemas expertos en nichos industriales."
+          }
+        ]
+      }
+    },
+    {
+      "id": "slide-011",
+      "order": 11,
+      "type": "process",
+      "templateId": "template-d",
+      "content": {
+        "title": "Línea temporal: 1990–2010",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Resurgimiento (1990–2010)",
+            "description": "La IA se reconfigura como machine learning: en lugar de programar reglas, se entrenan modelos con datos. Aumenta el poder computacional y aparecen métodos estadísticos robustos."
+          },
+          {
+            "number": 2,
+            "title": "Revolución moderna (2010–2020)",
+            "description": "El aprendizaje profundo redefine el campo. Redes neuronales profundas, grandes datasets y GPUs permiten avances en visión, voz y lenguaje. La IA deja de ser experimental y pasa a integrarse en productos masivos."
+          },
+          {
+            "number": 3,
+            "title": "IA actual (2020–hoy)",
+            "description": "Predominan modelos fundacionales: sistemas generativos capaces de producir texto, imágenes, audio y código con alta coherencia. Arquitecturas como transformers escalan con datos y cómputo. El foco se desplaza hacia alineación, control, impacto social y uso productivo en múltiples disciplinas."
+          }
+        ]
+      }
+    },
+    {
+      "id": "slide-012",
+      "order": 12,
+      "type": "data",
+      "templateId": "template-a",
+      "content": {
+        "title": "Transformer (2017)",
+        "stat": "2017",
+        "body": "Arquitectura fundacional para modelos de lenguaje a gran escala; marca un quiebre en cómo se modela la secuencia y la atención.",
+        "source": "Vaswani et al., 2017"
+      }
+    },
+    {
+      "id": "slide-013",
+      "order": 13,
+      "type": "section-break",
+      "templateId": "template-e",
+      "content": {
+        "title": "IA actual (2020–hoy)",
+        "subtitle": "Modelos fundacionales y plataformas generales",
+        "showDecorator": true
+      }
+    },
+    {
+      "id": "slide-014",
+      "order": 14,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "Modelos fundacionales",
+        "body": "Sistemas generativos capaces de producir texto, imágenes, audio y código con alta coherencia. Herramientas como ChatGPT o Stable Diffusion muestran una transición: de sistemas especializados a plataformas generales.",
+        "highlightTerms": [
+          "fundacionales",
+          "transformers"
+        ]
+      }
+    },
+    {
+      "id": "slide-015",
+      "order": 15,
+      "type": "comparison",
+      "templateId": "template-c",
+      "content": {
+        "title": "Generaciones de IA",
+        "columnALabel": "IA simbólica (1950–2000)",
+        "columnBLabel": "Machine Learning + Deep Learning (2000–hoy)",
+        "columnA": [
+          "Reglas explícitas programadas",
+          "Fallan fuera de contextos controlados",
+          "Experta pero frágil"
+        ],
+        "columnB": [
+          "Aprende patrones de datos",
+          "Generaliza a casos nuevos",
+          "Flexible pero a veces opaca"
+        ]
+      }
+    },
+    {
+      "id": "slide-016",
+      "order": 16,
+      "type": "section-break",
+      "templateId": "template-e",
+      "content": {
+        "title": "Campos y dominios",
+        "subtitle": "Mapa sintético de subcampos y herramientas",
+        "showDecorator": true
+      }
+    },
+    {
+      "id": "slide-017",
+      "order": 17,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "Tres ejes transversales",
+        "body": "Podés pensar la inteligencia artificial no como un bloque homogéneo sino como un conjunto de dominios técnicos que se ramifican según el tipo de problema, la naturaleza de los datos y el objetivo epistemológico (predecir, generar, optimizar, demostrar, etc.). Hay tres ejes que atraviesan todo: predicción, generación y razonamiento.",
+        "highlightTerms": [
+          "predicción",
+          "generación",
+          "razonamiento"
+        ]
+      }
+    },
+    {
+      "id": "slide-018",
+      "order": 18,
+      "type": "data",
+      "templateId": "template-a",
+      "content": {
+        "title": "Dominios principales",
+        "stat": "9+",
+        "body": "Un mapa sintético incluye medicina, generación visual, NLP, clasificadores predictivos, investigación matemática, robótica, economía, audio, IA científica y más.",
+        "source": "Mapa del deck"
+      }
+    },
+    {
+      "id": "slide-019",
+      "order": 19,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "Medicina y ciencias de la salud",
+        "body": "Subcampos: diagnóstico asistido por imagen, pronóstico clínico, descubrimiento de fármacos, medicina personalizada, NLP médico. Ejemplos: DeepMind (AlphaFold), Tempus, PathAI.",
+        "highlightTerms": [
+          "diagnóstico",
+          "AlphaFold"
+        ]
+      }
+    },
+    {
+      "id": "slide-020",
+      "order": 20,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "Generación visual",
+        "body": "Modelos generativos de imágenes (difusión, GANs), generación de video, edición y restauración, síntesis 3D / NeRFs. Ejemplos: Midjourney, Stable Diffusion, Runway.",
+        "highlightTerms": [
+          "difusión",
+          "NeRFs"
+        ]
+      }
+    },
+    {
+      "id": "slide-021",
+      "order": 21,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "Procesamiento de lenguaje (NLP)",
+        "body": "Modelos de lenguaje (LLMs), clasificación de texto, extracción de información, traducción automática, resumen automático. Ejemplos: ChatGPT, Claude, Cohere.",
+        "highlightTerms": [
+          "LLMs",
+          "ChatGPT"
+        ]
+      }
+    },
+    {
+      "id": "slide-022",
+      "order": 22,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "Clasificadores y sistemas predictivos",
+        "body": "Clasificación supervisada, regresión, detección de anomalías, ranking y recomendación. Modelos típicos: árboles de decisión, random forests, gradient boosting (XGBoost), redes neuronales. Ejemplos: Scikit-learn, XGBoost.",
+        "highlightTerms": [
+          "machine learning",
+          "XGBoost"
+        ]
+      }
+    },
+    {
+      "id": "slide-023",
+      "order": 23,
+      "type": "data",
+      "templateId": "template-a",
+      "content": {
+        "title": "Investigación matemática",
+        "stat": "Emergente",
+        "body": "Asistentes de prueba, formalización de teoremas, optimización combinatoria y razonamiento automatizado. Ejemplos: Lean, Mathematica, Wolfram Alpha.",
+        "source": "Razonamiento formal"
+      }
+    },
+    {
+      "id": "slide-024",
+      "order": 24,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "Robótica, economía y ciencia",
+        "body": "Robótica: percepción, planificación, aprendizaje por refuerzo, SLAM (Boston Dynamics, ROS). Economía: trading algorítmico, scoring crediticio (TensorFlow en industria). Audio: ASR, TTS (Whisper, ElevenLabs).",
+        "highlightTerms": [
+          "robótica",
+          "economía"
+        ]
+      }
+    },
+    {
+      "id": "slide-025",
+      "order": 25,
+      "type": "section-break",
+      "templateId": "template-e",
+      "content": {
+        "title": "IA en Argentina",
+        "subtitle": "Adopción, percepción y tensiones sociales",
+        "showDecorator": true
+      }
+    },
+    {
+      "id": "slide-026",
+      "order": 26,
+      "type": "data",
+      "templateId": "template-a",
+      "content": {
+        "title": "Nivel de adopción en Argentina",
+        "stat": "55%",
+        "body": "El 55% de las empresas en Argentina ya tiene proyectos de IA en marcha. Pero solo el 13% de los trabajadores la usa regularmente. Esto define el estado actual: adopción estructural alta, uso cotidiano todavía bajo.",
+        "source": "Randstad Argentina; Infobae, 2024"
+      }
+    },
+    {
+      "id": "slide-027",
+      "order": 27,
+      "type": "data",
+      "templateId": "template-a",
+      "content": {
+        "title": "Percepción de retraso",
+        "stat": "41%",
+        "body": "El 41% de los trabajadores cree que su empresa está atrasada en IA. El 47% cree que podría aprovecharla más. Hay una percepción de potencial no realizado, más que saturación tecnológica.",
+        "source": "Randstad Argentina"
+      }
+    },
+    {
+      "id": "slide-028",
+      "order": 28,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "Dónde se adopta IA",
+        "body": "En Argentina la adopción se concentra en servicios y economía del conocimiento (software, IT, marketing digital), finanzas y negocios (scoring, fraude, analítica), salud (incipiente pero creciente) y PyMEs (automatización administrativa y productividad).",
+        "highlightTerms": [
+          "servicios",
+          "finanzas"
+        ]
+      }
+    },
+    {
+      "id": "slide-029",
+      "order": 29,
+      "type": "data",
+      "templateId": "template-a",
+      "content": {
+        "title": "Impacto en el trabajo",
+        "stat": "34%",
+        "body": "Solo el 34% percibe impacto fuerte en su empleo. Un informe del MIT señala que no hay impacto significativo en empleo ni productividad todavía. No hay reemplazo masivo inmediato; sí hay reconfiguración de tareas.",
+        "source": "MIT; inteligenciaargentina.ar"
+      }
+    },
+    {
+      "id": "slide-030",
+      "order": 30,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "Nuevos roles y precariedad de datos",
+        "body": "Crecen roles como prompt engineering, data annotation e integración de IA en productos. El trabajo de datos en LATAM es muchas veces precario, mal pago y externalizado: la IA redistribuye valor de forma desigual.",
+        "highlightTerms": [
+          "prompt engineering",
+          "datos"
+        ]
+      }
+    },
+    {
+      "id": "slide-031",
+      "order": 31,
+      "type": "data",
+      "templateId": "template-a",
+      "content": {
+        "title": "Impacto económico potencial",
+        "stat": "GPT",
+        "body": "La IA puede aumentar productividad y crecimiento en Argentina; se la considera tecnología de propósito general, comparable a la electricidad o internet. Riesgos: concentración de mercado, dependencia tecnológica, brecha entre quienes adoptan y quienes no.",
+        "source": "IAE; arXiv:2405.00225"
+      }
+    },
+    {
+      "id": "slide-032",
+      "order": 32,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "Brecha digital y desigualdad",
+        "body": "Tensiones: acceso desigual a herramientas y formación; brecha entre trabajadores calificados y no calificados; transformación cultural de la autoría (texto, imagen, arte).",
+        "highlightTerms": [
+          "desigualdad",
+          "autoría"
+        ]
+      }
+    },
+    {
+      "id": "slide-033",
+      "order": 33,
+      "type": "data",
+      "templateId": "template-a",
+      "content": {
+        "title": "Confiabilidad de la IA",
+        "stat": "Asistir, no delegar",
+        "body": "Estado actual: alta capacidad, baja robustez epistemológica. Problemas: errores sistemáticos, sesgos en datos, falta de explicabilidad. La confiabilidad depende de transparencia, control humano y marcos éticos.",
+        "source": "Enfoque académico"
+      }
+    },
+    {
+      "id": "slide-034",
+      "order": 34,
+      "type": "comparison",
+      "templateId": "template-c",
+      "content": {
+        "title": "Percepciones de IA en la sociedad",
+        "columnALabel": "Potencial",
+        "columnBLabel": "Desconfianza",
+        "columnA": [
+          "Adopción estructural con proyectos en marcha",
+          "Interés en productividad y automatización",
+          "Políticas públicas que promueven adopción"
+        ],
+        "columnB": [
+          "Brecha entre interés y uso cotidiano",
+          "Impacto laboral todavía difuso",
+          "Riesgos de concentración y dependencia tecnológica"
+        ]
+      }
+    },
+    {
+      "id": "slide-035",
+      "order": 35,
+      "type": "section-break",
+      "templateId": "template-e",
+      "content": {
+        "title": "Diagnóstico sintético",
+        "subtitle": "Dónde estamos hoy",
+        "showDecorator": true
+      }
+    },
+    {
+      "id": "slide-036",
+      "order": 36,
+      "type": "comparison",
+      "templateId": "template-c",
+      "content": {
+        "title": "Dimensiones del estado actual",
+        "columnALabel": "Madurez tecnológica",
+        "columnBLabel": "Implementación real",
+        "columnA": [
+          "Modelos fundacionales y oferta de plataformas",
+          "Avances en visión, voz y lenguaje"
+        ],
+        "columnB": [
+          "Uso cotidiano todavía bajo en trabajadores",
+          "Adopción organizacional intermedia"
+        ]
+      }
+    },
+    {
+      "id": "slide-037",
+      "order": 37,
+      "type": "data",
+      "templateId": "template-a",
+      "content": {
+        "title": "Cuatro preguntas clave",
+        "stat": "Para pensar",
+        "body": "Infraestructura y oferta tecnológica: muy avanzada. Adopción organizacional: intermedia. Uso cotidiano real: bajo. Confiabilidad: suficiente para asistir, no para delegar.",
+        "source": "Síntesis del deck"
+      }
+    },
+    {
+      "id": "slide-038",
+      "order": 38,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "IA como herramienta",
+        "body": "La IA no es destino inevitable: la responsabilidad sigue siendo humana en alineación, control, marcos éticos y uso productivo.",
+        "highlightTerms": [
+          "herramienta",
+          "responsabilidad"
+        ]
+      }
+    },
+    {
+      "id": "slide-039",
+      "order": 39,
+      "type": "section-break",
+      "templateId": "template-e",
+      "content": {
+        "title": "Preguntas",
+        "subtitle": "Apertura al debate",
+        "showDecorator": true
+      }
+    },
+    {
+      "id": "slide-040",
+      "order": 40,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "¿Cómo funcionan los transformers?",
+        "body": "Opcional: profundidad técnica sobre atención, paralelización y escalado con datos y cómputo.",
+        "eyebrow": "Profundización",
+        "highlightTerms": [
+          "transformers",
+          "atención"
+        ]
+      }
+    },
+    {
+      "id": "slide-041",
+      "order": 41,
+      "type": "concept",
+      "templateId": "template-b",
+      "content": {
+        "title": "Sesgo algorítmico y equidad",
+        "body": "Opcional: sesgos en datos, evaluación de riesgos, auditoría y gobernanza antes del despliegue.",
+        "eyebrow": "Equidad",
+        "highlightTerms": [
+          "sesgo",
+          "auditoría"
+        ]
+      }
+    },
+    {
+      "id": "slide-042",
+      "order": 42,
+      "type": "data",
+      "templateId": "template-a",
+      "content": {
+        "title": "Recursos de aprendizaje",
+        "stat": "IBM",
+        "body": "Historia y fundamentos de la IA: material de referencia para ampliar lectura.",
+        "source": "https://www.ibm.com/es-es/think/topics/history-of-artificial-intelligence"
+      }
+    }
+  ]
+}

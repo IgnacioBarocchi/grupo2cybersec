@@ -1,0 +1,34 @@
+{
+  "locale": "es-AR",
+  "version": "1.0.0",
+  "blocks": [
+    {
+      "id": "msg-ia-definicion-001",
+      "blockType": "concept-body",
+      "confidenceClass": "adaptable",
+      "source": "AI-Project-files/ai-presentation-brand-guide.md",
+      "text": "La inteligencia artificial es un campo joven. Sus impactos en la sociedad aun se estan evaluando."
+    },
+    {
+      "id": "msg-sesgo-001",
+      "blockType": "concept-body",
+      "confidenceClass": "adaptable",
+      "source": "AI-Project-files/ai-presentation-brand-guide.md",
+      "text": "El sesgo algoritmico emerge cuando los datos de entrenamiento reflejan patrones discriminatorios del mundo real. Por eso la auditoria de datos es fundamental antes del despliegue."
+    },
+    {
+      "id": "msg-adopcion-001",
+      "blockType": "data-body",
+      "confidenceClass": "adaptable",
+      "source": "AI-Project-files/QUICK-REFERENCE.md",
+      "text": "Sin embargo, el contexto de uso determina si un modelo aporta evidencia util o solo ruido operacional."
+    }
+  ],
+  "connectors": [
+    "por eso",
+    "sin embargo",
+    "ademas",
+    "es decir",
+    "por lo tanto"
+  ]
+}

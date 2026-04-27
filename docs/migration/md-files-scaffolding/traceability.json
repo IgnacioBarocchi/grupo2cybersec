@@ -1,0 +1,53 @@
+{
+  "entries": [
+    {
+      "source": "AI-Project-files/ai-presentation-brand-guide.md#color-palette",
+      "class": "authoritative",
+      "targets": [
+        ".cursor/rules/brand-system.md",
+        "docs/branding-system.md",
+        "data/presentation/layout/templates.json"
+      ]
+    },
+    {
+      "source": "AI-Project-files/ai-presentation-brand-guide.md#copy-guidelines",
+      "class": "authoritative",
+      "targets": [
+        ".cursor/rules/es-ar-copywriting.md",
+        "data/presentation/content-blocks/es-ar-canon.json"
+      ]
+    },
+    {
+      "source": "AI-Project-files/briefing-composition-plan.md#slide-templates-and-sections",
+      "class": "adaptable",
+      "targets": [
+        "data/presentation/layout/templates.json",
+        "docs/presentation-composition.md"
+      ]
+    },
+    {
+      "source": "AI-Project-files/implementation-spec.md#dependencies-architecture",
+      "class": "legacy-non-binding",
+      "targets": [
+        "docs/legacy/implementation-spec-non-binding.md"
+      ]
+    },
+    {
+      "source": "AI-Project-files/QUICK-REFERENCE.md#quick-rules",
+      "class": "adaptable",
+      "targets": [
+        ".cursor/rules/presentation-composition.md",
+        "docs/presentation-composition.md"
+      ]
+    },
+    {
+      "source": "AI-Project-files/fonts/*",
+      "class": "authoritative",
+      "targets": [
+        "assets/fonts/*",
+        "app/layout.tsx",
+        "docs/font-pipeline.md"
+      ]
+    }
+  ]
+}

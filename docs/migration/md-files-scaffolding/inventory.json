@@ -1,0 +1,67 @@
+{
+  "change": "md-files-scaffolding",
+  "generatedAt": "2026-04-27",
+  "sourceRoot": "AI-Project-files",
+  "sources": [
+    {
+      "path": "AI-Project-files/ai-presentation-brand-guide.md",
+      "kind": "markdown",
+      "highValueSignals": [
+        "palette tokens and usage rules",
+        "typography scale for TV readability",
+        "es-AR copy and tone constraints",
+        "slide template composition logic"
+      ],
+      "riskSignals": [
+        "prescriptive stack/file path assumptions",
+        "component-level implementation details not aligned to current repository"
+      ]
+    },
+    {
+      "path": "AI-Project-files/briefing-composition-plan.md",
+      "kind": "markdown",
+      "highValueSignals": [
+        "narrative section sequencing",
+        "slide taxonomy",
+        "animation intent as conceptual guidance"
+      ],
+      "riskSignals": [
+        "hardcoded runtime and library assumptions",
+        "non-authoritative implementation checklist"
+      ]
+    },
+    {
+      "path": "AI-Project-files/implementation-spec.md",
+      "kind": "markdown",
+      "highValueSignals": [
+        "conceptual architecture ideas",
+        "font loading alternatives",
+        "testing and deployment checklist ideas"
+      ],
+      "riskSignals": [
+        "dependency/version assumptions",
+        "component APIs and paths not guaranteed to match project reality"
+      ]
+    },
+    {
+      "path": "AI-Project-files/QUICK-REFERENCE.md",
+      "kind": "markdown",
+      "highValueSignals": [
+        "condensed palette and typography reference",
+        "copywriting do/don't constraints",
+        "layout spacing reminders"
+      ],
+      "riskSignals": [
+        "example file paths and component imports that may be outdated"
+      ]
+    },
+    {
+      "path": "AI-Project-files/fonts/*",
+      "kind": "binary-fonts",
+      "highValueSignals": [
+        "IBM Plex Sans assets for local rendering/export compatibility"
+      ],
+      "riskSignals": []
+    }
+  ]
+}

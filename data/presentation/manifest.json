@@ -1,0 +1,18 @@
+{
+  "id": "presentation-migration-manifest",
+  "version": "1.0.0",
+  "locale": "es-AR",
+  "inputs": {
+    "copyRules": ".cursor/rules/es-ar-copywriting.md",
+    "brandRules": ".cursor/rules/brand-system.md",
+    "compositionRules": ".cursor/rules/presentation-composition.md",
+    "contentBlocks": "data/presentation/content-blocks/es-ar-canon.json",
+    "layoutTemplates": "data/presentation/layout/templates.json",
+    "fontAssets": "assets/fonts"
+  },
+  "constraints": {
+    "legacyIsNonBinding": true,
+    "requiresStableIds": true,
+    "requiresConfidenceClass": true
+  }
+}
