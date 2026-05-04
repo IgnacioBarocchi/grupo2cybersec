@@ -1,5 +1,5 @@
-import { redirect } from 'next/navigation'
+import { Slideshow } from '@ia-pres/components/Slideshow'
 
 export default function InteligenciaArtificialPage() {
-  redirect('/inteligencia-artificial/deck/0')
+  return <Slideshow />
 }

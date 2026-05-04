@@ -1,5 +1,9 @@
 # Documentation Index
 
+## Planning
+
+- `docs/backlog-ia-deck-visual-refresh.md`: Analysis and backlog for IA deck visual quality (isolated vertical).
+
 ## Core
 
 - `docs/branding-system.md`: Human-readable brand logic and usage.

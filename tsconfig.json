@@ -25,6 +25,9 @@
     "paths": {
       "@/*": [
         "./*"
+      ],
+      "@ia-pres/*": [
+        "./app/inteligencia-artificial/presentation/*"
       ]
     }
   },
