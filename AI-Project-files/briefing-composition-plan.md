@@ -518,75 +518,63 @@ Below is the complete slide registry organized by section.
 | 001      | section-break | Inteligencia Artificial       | Subtitle: "Fundamentos, evolución..."    |
 | 002      | concept     | ¿Qué es la IA?               | Eyebrow: "¿De qué hablamos?"            |
 
-### 3.2 SECTION 1: Antecedentes (Slides 003–008)
+### 3.2 SECTION 1: Antecedentes (Slides 003–006)
 
 | Slide ID | Type        | Title / Focus                  | Presenter Notes                         |
 |----------|-------------|--------------------------------|------------------------------------------|
 | 003      | section-break | Antecedentes                  | Contextualize long history              |
-| 004      | concept     | Leibniz (1646–1716)           | Characteristica universalis             |
-| 005      | concept     | Babbage & Lovelace (1810–1860)| Máquina analítica                       |
-| 006      | data        | George Boole (1815–1864)      | Stat: "1847" (álgebra booleana)        |
-| 007      | concept     | Turing & Wiener (1930–1950)   | Formal calculation, cybernetics         |
-| 008      | concept     | Síntesis: "El negativo histórico" | Foundation of modern IA              |
+| 004      | concept     | De Leibniz a Lovelace         | Leibniz + Babbage/Lovelace merged       |
+| 005      | data        | George Boole (1815–1864)      | Stat: "1847" (álgebra booleana)        |
+| 006      | concept     | Turing, Wiener y síntesis      | Cybernetics + “negativo histórico”      |
 
-### 3.3 SECTION 2: Evolución técnica (Slides 009–015)
+### 3.3 SECTION 2: Evolución técnica (Slides 007–012)
 
 | Slide ID | Type        | Title / Focus                | Presenter Notes                         |
 |----------|-------------|------------------------------|------------------------------------------|
-| 009      | section-break | Evolución técnica            | From theory to practice                 |
-| 010      | process     | Timeline 1950–1980           | Dartmouth, first systems, winter       |
-| 011      | process     | Timeline 1990–2010           | Resurgence, deep learning               |
-| 012      | data        | Transformer (2017)           | Stat: "2017", foundational              |
-| 013      | section-break | IA actual (2020–hoy)        | Foundational models                     |
-| 014      | concept     | Modelos fundacionales        | Generative systems, transformers        |
-| 015      | comparison  | Generaciones de IA           | Symbolic vs. ML + DL                    |
+| 007      | section-break | Evolución técnica            | From theory to practice                 |
+| 008      | process     | Línea temporal 1950 a hoy   | Six steps (former 010 + 011 merged)    |
+| 009      | data        | Transformer (2017)           | Stat: "2017", foundational              |
+| 010      | section-break | IA actual (2020–hoy)        | Foundational models                     |
+| 011      | concept     | Modelos fundacionales        | Generative systems, transformers        |
+| 012      | comparison  | Generaciones de IA           | Symbolic vs. ML + DL                    |
 
-### 3.4 SECTION 3: Campos y dominios (Slides 016–024)
-
-| Slide ID | Type        | Title / Focus                | Presenter Notes                         |
-|----------|-------------|------------------------------|------------------------------------------|
-| 016      | section-break | Campos y dominios            | Ecosystem of specialties                |
-| 017      | concept     | Tres ejes transversales      | Prediction, generation, reasoning       |
-| 018      | data        | Dominios principales         | Stat: "9+"                              |
-| 019      | concept     | Medicina y ciencias de salud | Diagnostic imaging, AlphaFold            |
-| 020      | concept     | Generación visual            | Diffusion, GANs, NeRFs, Midjourney      |
-| 021      | concept     | Procesamiento de lenguaje    | LLMs, ChatGPT, Claude, NLP              |
-| 022      | concept     | Clasificadores predictivos   | Classic ML: trees, boosting, NN         |
-| 023      | data        | Investigación matemática     | Stat: "Emergente", theorem proving      |
-| 024      | concept     | Robótica, economía, ciencia  | Multiple domains overview               |
-
-### 3.5 SECTION 4: Aplicaciones en Argentina (Slides 025–034)
+### 3.4 SECTION 3: Campos y dominios (Slides 013–018)
 
 | Slide ID | Type        | Title / Focus                | Presenter Notes                         |
 |----------|-------------|------------------------------|------------------------------------------|
-| 025      | section-break | IA en Argentina              | Adoption, impact, local realities       |
-| 026      | data        | Nivel de adopción empresarial| Stat: "55%", gap between decision & use |
-| 027      | data        | Percepción de retraso        | Stat: "41%"                             |
-| 028      | concept     | Dónde se adopta IA           | Services, finance, health, SMEs         |
-| 029      | data        | Impacto en empleo            | Stat: "34%", no mass replacement yet    |
-| 030      | concept     | Nuevos roles laborales       | Prompt eng., data annotation, inequality |
-| 031      | data        | Impacto económico potencial  | Stat: "GPT" (general-purpose tech)     |
-| 032      | concept     | Brecha digital y desigualdad | Access, education, authorship           |
-| 033      | data        | Confiabilidad actual         | Stat: "Asistir, no delegar"             |
-| 034      | comparison  | Percepciones de IA en sociedad | Who sees potential vs. who distrusts    |
+| 013      | section-break | Campos y dominios            | Ecosystem of specialties                |
+| 014      | concept     | Tres ejes transversales      | Prediction, generation, reasoning       |
+| 015      | data        | Dominios principales         | Stat: "9+"                              |
+| 016      | concept     | Medicina y generación visual | Merged former 019 + 020                 |
+| 017      | concept     | Lenguaje y predicción        | Merged former 021 + 022                 |
+| 018      | concept     | Razonamiento, robótica, eco. | Merged former 023 + 024                 |
 
-### 3.6 SECTION 5: Síntesis (Slides 035–039)
+### 3.5 SECTION 4: Aplicaciones en Argentina (Slides 019–023)
 
 | Slide ID | Type        | Title / Focus                | Presenter Notes                         |
 |----------|-------------|------------------------------|------------------------------------------|
-| 035      | section-break | Diagnóstico sintético        | Where are we?                          |
-| 036      | comparison  | Dimensiones del estado actual | Tech maturity vs. real implementation   |
-| 037      | data        | Cuatro preguntas clave       | Stat: "Para pensar"                     |
-| 038      | concept     | IA como herramienta          | "Not destiny", responsibility ours      |
-| 039      | section-break | Preguntas                    | Open the debate                         |
+| 019      | section-break | IA en Argentina              | Adoption & perception (Randstad)        |
+| 020      | data        | Adopción y percepción        | Stat: "55%"; merged former 026 + 027    |
+| 021      | concept     | Sectores e impacto trabajo   | Merged former 028 + 029                 |
+| 022      | data        | Impacto económico potencial  | Stat: "GPT" (general-purpose tech)     |
+| 023      | comparison  | Confiabilidad y lectura social | Merged former 033 + 034 (reframed cols) |
 
-### 3.7 OPTIONAL: Deep Dives (Slides 040–042)
+### 3.6 SECTION 5: Síntesis (Slides 024–028)
 
 | Slide ID | Type        | Title / Focus                | Presenter Notes                         |
 |----------|-------------|------------------------------|------------------------------------------|
-| 040      | concept     | ¿Cómo funcionan Transformers? | Optional, if technical depth needed    |
-| 041      | concept     | Sesgo algorítmico y equidad  | Optional, critical topic                |
-| 042      | data        | Recursos de aprendizaje      | Optional, path forward for learning     |
+| 024      | section-break | Diagnóstico sintético        | Where are we?                          |
+| 025      | comparison  | Dimensiones del estado actual | Tech maturity vs. real implementation   |
+| 026      | data        | Cuatro preguntas clave       | Stat: "Para pensar"                     |
+| 027      | concept     | IA como herramienta          | "Not destiny", responsibility ours      |
+| 028      | section-break | Preguntas                    | Open the debate                         |
+
+### 3.7 OPTIONAL: Deep Dives (Slides 029–030)
+
+| Slide ID | Type        | Title / Focus                | Presenter Notes                         |
+|----------|-------------|------------------------------|------------------------------------------|
+| 029      | concept     | ¿Cómo funcionan Transformers? | Optional, if technical depth needed    |
+| 030      | data        | Recursos de aprendizaje      | IBM history link                        |
 
 ---
 

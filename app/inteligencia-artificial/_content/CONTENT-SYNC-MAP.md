@@ -12,38 +12,49 @@ Convención: cada bloque indica `slide-XXX` → campos JSON (`content.title`, `c
 ## Sección 1 — Antecedentes
 
 - `slide-003` → `section-break`: título de sección.
-- `slide-004` → `concept`: Leibniz, `characteristica universalis`.
-- `slide-005` → `concept`: Babbage y Lovelace, máquina analítica y notas.
-- `slide-006` → `data`: Boole, `stat` + cuerpo sobre álgebra booleana.
-- `slide-007` → `concept`: Turing y Wiener, origen 1940–1950.
-- `slide-008` → `concept`: síntesis “negativo histórico”.
+- `slide-004` → `concept`: Leibniz a Lovelace (fusionado).
+- `slide-005` → `data`: Boole, `stat` + cuerpo sobre álgebra booleana.
+- `slide-006` → `concept`: Turing, Wiener y síntesis histórica.
 
 ## Sección 2 — Evolución técnica
 
-- `slide-009` → `section-break`.
-- `slide-010` → `process`: 1956, 1960–1970, invierno (pasos en `content.steps`).
-- `slide-011` → `process`: 1990–2010, 2010–2020, 2020–hoy.
-- `slide-012` → `data`: Transformer 2017.
-- `slide-013` → `section-break`: IA actual.
-- `slide-014` → `concept`: modelos fundacionales.
-- `slide-015` → `comparison`: simbólica vs ML+DL.
+- `slide-007` → `section-break`.
+- `slide-008` → `process`: línea temporal en seis pasos (1956 a hoy).
+- `slide-009` → `data`: Transformer 2017.
+- `slide-010` → `section-break`: IA actual.
+- `slide-011` → `concept`: modelos fundacionales.
+- `slide-012` → `comparison`: simbólica vs ML+DL.
 
 ## Sección 3 — Campos y dominios
 
-- `slide-016`–`024` → mezcla `concept` / `data` según `deck.json` (mapa de subcampos, ejes, dominios, ejemplos).
+- `slide-013` → `section-break`.
+- `slide-014` → `concept`: tres ejes transversales.
+- `slide-015` → `data`: dominios principales.
+- `slide-016` → `concept`: medicina y generación visual.
+- `slide-017` → `concept`: lenguaje y predicción.
+- `slide-018` → `concept`: razonamiento formal, robótica y economía.
 
 ## Sección 4 — Argentina
 
-- `slide-025`–`034` → `section-break`, `data`, `concept`, `comparison` según `deck.json` (adopción, sectores, trabajo, economía, confiabilidad, percepciones).
+- `slide-019` → `section-break`.
+- `slide-020` → `data`: adopción y percepción (Randstad fusionado).
+- `slide-021` → `concept`: sectores e impacto en el trabajo.
+- `slide-022` → `data`: impacto económico potencial.
+- `slide-023` → `comparison`: confiabilidad y lectura social.
 
 ## Sección 5 — Síntesis
 
-- `slide-035`–`039` → cierre y preguntas.
+- `slide-024` → `section-break`: diagnóstico sintético.
+- `slide-025` → `comparison`: dimensiones del estado actual.
+- `slide-026` → `data`: cuatro preguntas clave.
+- `slide-027` → `concept`: IA como herramienta.
+- `slide-028` → `section-break`: preguntas.
 
-## Opcional — Deep dives
+## Opcional — Profundización
 
-- `slide-040`–`042` → conceptos y recurso externo IBM (fuente en `content.source` del slide `042`).
+- `slide-029` → `concept`: transformers (opcional).
+- `slide-030` → `data`: recursos IBM (`content.source` URL).
 
 ## Fuentes y enlaces (recordatorio)
 
-- Consolidá URLs y referencias en `content.source` o listas en `comparison` / `process` según corresponda; mantené el texto visible en español (`es-AR`) en JSON.
+Consolidá URLs y referencias en `content.source` o listas en `comparison` / `process` según corresponda; mantené el texto visible en español (`es-AR`) en JSON.
