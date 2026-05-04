@@ -191,12 +191,17 @@ export const slide018 = {
   highlightTerms: ["Lean", "robótica"],
 };
 
+/** Opacity (0–1) for the flag background on the “IA en Argentina” section slide. */
+export const IA_ARGENTINA_SECTION_BG_OPACITY = 0.025
+
 // Slide 19: Section break
 export const slide019 = {
   type: "section-break",
   title: "IA en Argentina",
   subtitle: "Adopción, percepción y uso",
   showDecorator: true,
+  backgroundImage: "/ia-argentina-bg.png",
+  backgroundOpacity: IA_ARGENTINA_SECTION_BG_OPACITY,
 };
 
 // Slide 20: Data

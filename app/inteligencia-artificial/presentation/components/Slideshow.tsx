@@ -136,7 +136,7 @@ export function Slideshow() {
         </button>
 
         {/* Slide indicators */}
-        <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-card border border-border max-w-sm overflow-x-auto">
+        <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-card border border-border max-w-sm overflow-x-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
           {slideConfigs.map((slide, index) => (
             <button
               key={slide.id}

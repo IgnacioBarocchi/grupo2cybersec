@@ -7,9 +7,18 @@ interface SectionBreakSlideProps {
   title: string;
   subtitle: string;
   showDecorator?: boolean;
+  backgroundImage?: string;
+  /** 0–1; only used when `backgroundImage` is set. */
+  backgroundOpacity?: number;
 }
 
-export function SectionBreakSlide({ title, subtitle, showDecorator = true }: SectionBreakSlideProps) {
+export function SectionBreakSlide({
+  title,
+  subtitle,
+  showDecorator = true,
+  backgroundImage,
+  backgroundOpacity = 0.1,
+}: SectionBreakSlideProps) {
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -23,9 +32,21 @@ export function SectionBreakSlide({ title, subtitle, showDecorator = true }: Sec
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
   };
 
+  const hasBg = Boolean(backgroundImage);
+
   return (
-    <SlideWrapper>
-      <div className="flex h-full items-center justify-center">
+    <SlideWrapper className={hasBg ? "relative overflow-hidden" : undefined}>
+      {hasBg ? (
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url(${backgroundImage})`,
+            opacity: backgroundOpacity,
+          }}
+        />
+      ) : null}
+      <div className={`flex h-full min-h-0 w-full items-center justify-center ${hasBg ? "relative z-10" : ""}`}>
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -62,3 +83,4 @@ export function SectionBreakSlide({ title, subtitle, showDecorator = true }: Sec
     </SlideWrapper>
   );
 }
+
