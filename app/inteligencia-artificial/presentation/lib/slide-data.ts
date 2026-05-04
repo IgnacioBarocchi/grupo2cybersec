@@ -9,7 +9,7 @@ export const titleSlide = {
     "Barocchi Ignacio",
     "Celeste Maia",
     "Cantero Esteban",
-    "Gabriel Rivas",
+    "Gabriel Bergamini",
   ],
 };
 
