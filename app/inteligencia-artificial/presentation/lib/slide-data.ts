@@ -34,6 +34,19 @@ export const slide004 = {
   title: "De Leibniz a Lovelace",
   body: "Gottfried Wilhelm Leibniz imaginó una characteristica universalis: un lenguaje formal en el que razonar equivaldría a calcular. Charles Babbage diseñó la máquina analítica —memoria, cálculo y control por tarjetas perforadas— como arquitectura general de cómputo. Ada Lovelace señaló que una máquina podría manipular símbolos más allá de los números si se formalizan.",
   highlightTerms: ["characteristica universalis", "máquina analítica"],
+  rightVisual: {
+    type: "portrait-cards",
+    cards: [
+      {
+        src: "/assets/figures/ada-lovelace.jpg",
+        alt: "Retrato de Ada Lovelace",
+      },
+      {
+        src: "/assets/figures/leibniz.jpg",
+        alt: "Retrato de Gottfried Wilhelm Leibniz",
+      },
+    ],
+  },
 };
 
 // Slide 05: Data
@@ -43,6 +56,13 @@ export const slide005 = {
   stat: "1847",
   body: "Su álgebra booleana convierte el razonamiento en operaciones formales (verdadero/falso), lo que después se traduce directamente en circuitos digitales y, en última instancia, en computación.",
   source: "Álgebra booleana",
+  rightVisual: {
+    type: "portrait-card",
+    card: {
+      src: "/assets/figures/george-boole.jpg",
+      alt: "Retrato de George Boole",
+    },
+  },
 };
 
 // Slide 06: Concept
@@ -50,6 +70,19 @@ export const slide006 = {
   title: "Turing, Wiener y el negativo histórico",
   body: "Origen (1940–1950): Alan Turing formaliza el pensamiento como cálculo simbólico; Norbert Wiener desarrolla la cibernética y la retroalimentación. En síntesis aún no existía IA moderna, pero sí la intuición de que el pensamiento podía mecanizarse con símbolos y reglas —el negativo histórico de lo que vino después.",
   highlightTerms: ["Alan Turing", "símbolos"],
+  rightVisual: {
+    type: "portrait-cards",
+    cards: [
+      {
+        src: "/assets/figures/alan-turing.jpg",
+        alt: "Retrato de Alan Turing",
+      },
+      {
+        src: "/assets/figures/norbert-wiener.png",
+        alt: "Retrato de Norbert Wiener",
+      },
+    ],
+  },
 };
 
 // Slide 07: Section break
@@ -175,6 +208,15 @@ export const slide016 = {
   title: "Medicina y generación visual",
   body: "Medicina: diagnóstico por imagen, pronóstico clínico, fármacos, NLP médico (AlphaFold, Tempus, PathAI). Visual: difusión, GANs, video, NeRFs (Midjourney, Stable Diffusion, Runway).",
   highlightTerms: ["AlphaFold", "difusión"],
+  rightVisual: {
+    type: "media-cards",
+    cards: [
+      {
+        src: "/assets/slides/medicine-aidetectscov.jpg",
+        alt: "Ejemplos de radiografías y mapas Grad-CAM para detección de COVID",
+      },
+    ],
+  },
 };
 
 // Slide 17: Concept
@@ -182,6 +224,16 @@ export const slide017 = {
   title: "Lenguaje y predicción",
   body: "NLP: LLMs, clasificación de texto, traducción, resumen (ChatGPT, Claude, Cohere). Predicción: clasificación, regresión, anomalías, recomendación con árboles, random forests, XGBoost, redes neuronales.",
   highlightTerms: ["LLMs", "XGBoost"],
+  rightVisual: {
+    type: "media-cards",
+    layout: "landscape",
+    cards: [
+      {
+        src: "/assets/slides/ai-coding.gif",
+        alt: "Asistente de IA ayudando a programar",
+      },
+    ],
+  },
 };
 
 // Slide 18: Concept
@@ -189,6 +241,19 @@ export const slide018 = {
   title: "Razonamiento formal, robótica y economía",
   body: "Investigación matemática (estado emergente): asistentes de prueba, formalización, optimización combinatoria (Lean, Mathematica, Wolfram Alpha). Robótica: percepción, refuerzo, SLAM (Boston Dynamics, ROS). Economía: trading, scoring (TensorFlow en industria). Audio: ASR, TTS (Whisper, ElevenLabs).",
   highlightTerms: ["Lean", "robótica"],
+  rightVisual: {
+    type: "media-cards",
+    cards: [
+      {
+        src: "/assets/slides/robots.jpg",
+        alt: "Robots de Boston Dynamics",
+      },
+      {
+        src: "/assets/slides/cv-agriculture.gif",
+        alt: "Detección de racimos de uva con visión por computadora",
+      },
+    ],
+  },
 };
 
 /** Opacity (0–1) for the flag background on the “IA en Argentina” section slide. */
