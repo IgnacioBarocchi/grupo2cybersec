@@ -67,7 +67,7 @@ const slideConfigs = [
   { id: "slide-023", component: ComparisonSlide, title: "Confiabilidad", props: slide023 },
   { id: "slide-024", component: SectionBreakSlide, title: "Diagnóstico sintético", props: slide024 },
   { id: "slide-025", component: ComparisonSlide, title: "Dimensiones actuales", props: slide025 },
-  { id: "slide-026", component: DataSlide, title: "Preguntas clave", props: slide026 },
+  { id: "slide-026", component: ConceptSlide, title: "Conclusiones", props: slide026 },
   { id: "slide-027", component: ConceptSlide, title: "IA como herramienta", props: slide027 },
   { id: "slide-028", component: SectionBreakSlide, title: "Preguntas", props: slide028 },
   { id: "slide-029", component: ConceptSlide, title: "Transformers", props: slide029 },

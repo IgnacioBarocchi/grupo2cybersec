@@ -165,9 +165,52 @@ export const slide015 = {
 
 // Slide 16: Concept
 export const slide016 = {
-  title: "Medicina y generación visual",
-  body: "Medicina: diagnóstico por imagen, pronóstico clínico, fármacos, NLP médico (AlphaFold, Tempus, PathAI). Visual: difusión, GANs, video, NeRFs (Midjourney, Stable Diffusion, Runway).",
-  highlightTerms: ["AlphaFold", "difusión"],
+  title: "Ecosistema multimodal y generación sintética",
+  body: "La IA actual no se limita al texto: procesa y genera imagen, audio y video de forma nativa. Cada modalidad combina capacidades productivas con nuevos desafíos sobre confianza, trazabilidad y veracidad de la información.",
+  highlightTerms: ["multimodal", "generación sintética", "veracidad"],
+  domainCards: [
+    {
+      title: "Generación de imagen",
+      summary:
+        "Dominada por Midjourney (estética artística), DALL·E 3 (precisión semántica) y Stable Diffusion (control técnico y código abierto).",
+      tools: ["Midjourney", "DALL·E 3", "Stable Diffusion"],
+    },
+    {
+      title: "Música y audio",
+      summary:
+        "Suno y Udio crean composiciones completas con voz y letra. ElevenLabs revolucionó doblaje y síntesis vocal, pero aceleró riesgos de deepfakes.",
+      tools: ["Suno", "Udio", "ElevenLabs"],
+      note: "Desafío crítico: validar autenticidad y contexto del audio generado.",
+      tone: "risk",
+    },
+    {
+      title: "Video",
+      summary:
+        "Modelos como Sora transforman la producción audiovisual al permitir escenas cinemáticas a partir de descripciones textuales.",
+      tools: ["Sora"],
+    },
+  ],
+  rightVisual: {
+    type: "media-cards",
+    cards: [
+      {
+        src: "/assets/slides/medicine-aidetectscov.jpg",
+        alt: "Ejemplos de radiografías y mapas Grad-CAM para detección de COVID",
+      },
+      {
+        src: "/assets/slides/nano-banana-pro.jpg",
+        alt: "Pantalla promocional con texto Nano Banana Pro",
+      },
+      {
+        src: "/assets/slides/claude-creative-workflow.gif",
+        alt: "Interfaz de Claude conectada a herramientas creativas",
+      },
+      {
+        src: "/assets/slides/suno-ai.jpg",
+        alt: "Logo de Suno sobre fondo negro",
+      },
+    ],
+  },
 };
 
 // Slide 17: Concept
@@ -206,6 +249,19 @@ export const slide021 = {
   title: "Sectores e impacto en el trabajo",
   body: "En Argentina la adopción se concentra en servicios y economía del conocimiento, finanzas (scoring, fraude, analítica), salud creciente y PyMEs (automatización administrativa). Solo el 34% percibe impacto fuerte en su empleo; estudios del MIT sugieren impacto aún difuso en empleo y productividad, con reconfiguración de tareas más que reemplazo masivo inmediato.",
   highlightTerms: ["servicios", "empleo"],
+  sideColumn: {
+    title: "La nueva realidad laboral: agentes y autonomía",
+    items: [
+      {
+        heading: "Claude Code y Anthropic",
+        body: "Anthropic, empresa fundada por ex-directivos de OpenAI con foco en seguridad, desarrolla Claude Code: un agente que vive en terminal, puede leer bases de código completas, ejecutar comandos y reparar fallos de software de forma autónoma.",
+      },
+      {
+        heading: "Transformación de roles",
+        body: "En 2026 la productividad escala con IA agéntica: los profesionales pasan de ejecutar tareas aisladas a orquestar múltiples sistemas inteligentes que gestionan flujos de trabajo completos.",
+      },
+    ],
+  },
 };
 
 // Slide 22: Data
@@ -257,6 +313,14 @@ export const slide025 = {
     "Uso cotidiano todavía bajo en trabajadores",
     "Adopción organizacional intermedia",
   ],
+  sustainabilityPanel: {
+    title: "El desafío de la sostenibilidad: energía y agua",
+    points: [
+      "Consumo energético: una consulta a un modelo de IA puede consumir cerca de 10 veces más electricidad que una búsqueda tradicional en Google.",
+      "Huella hídrica: los centros de datos requieren enfriamiento constante; se estima que cada 10 a 50 consultas consumen alrededor de 500 ml de agua dulce.",
+      "En 2026, gestionar energía y agua se consolida como uno de los mayores retos éticos de la industria.",
+    ],
+  },
 };
 
 // Slide 26: Data

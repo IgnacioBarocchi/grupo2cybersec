@@ -205,15 +205,50 @@ export const slide015 = {
 
 // Slide 16: Concept
 export const slide016 = {
-  title: "Medicina y generación visual",
-  body: "Medicina: diagnóstico por imagen, pronóstico clínico, fármacos, NLP médico (AlphaFold, Tempus, PathAI). Visual: difusión, GANs, video, NeRFs (Midjourney, Stable Diffusion, Runway).",
-  highlightTerms: ["AlphaFold", "difusión"],
+  title: "Ecosistema multimodal y generación sintética",
+  body: "La IA actual no se limita al texto: procesa y genera imagen, audio y video de forma nativa. Cada modalidad combina capacidades productivas con nuevos desafíos sobre confianza, trazabilidad y veracidad de la información.",
+  highlightTerms: ["multimodal", "generación sintética", "veracidad"],
+  domainCards: [
+    {
+      title: "Generación de imagen",
+      summary:
+        "Dominada por Midjourney (estética artística), DALL·E 3 (precisión semántica) y Stable Diffusion (control técnico y código abierto).",
+      tools: ["Midjourney", "DALL·E 3", "Stable Diffusion"],
+    },
+    {
+      title: "Música y audio",
+      summary:
+        "Suno y Udio crean composiciones completas con voz y letra. ElevenLabs revolucionó doblaje y síntesis vocal, pero aceleró riesgos de deepfakes.",
+      tools: ["Suno", "Udio", "ElevenLabs"],
+      note: "Desafío crítico: validar autenticidad y contexto del audio generado.",
+      tone: "risk",
+    },
+    {
+      title: "Video",
+      summary:
+        "Modelos como Sora transforman la producción audiovisual al permitir escenas cinemáticas a partir de descripciones textuales.",
+      tools: ["Sora"],
+    },
+  ],
   rightVisual: {
     type: "media-cards",
+    layout: "skew-overlap",
     cards: [
       {
         src: "/assets/slides/medicine-aidetectscov.jpg",
         alt: "Ejemplos de radiografías y mapas Grad-CAM para detección de COVID",
+      },
+      {
+        src: "/assets/slides/nano-banana-pro.jpg",
+        alt: "Pantalla promocional con texto Nano Banana Pro",
+      },
+      {
+        src: "/assets/slides/claude-creative-workflow.gif",
+        alt: "Interfaz de Claude conectada a herramientas creativas",
+      },
+      {
+        src: "/assets/slides/suno-ai.jpg",
+        alt: "Logo de Suno sobre fondo negro",
       },
     ],
   },
@@ -226,11 +261,27 @@ export const slide017 = {
   highlightTerms: ["LLMs", "XGBoost"],
   rightVisual: {
     type: "media-cards",
-    layout: "landscape",
+    layout: "skew-overlap-landscape",
     cards: [
       {
         src: "/assets/slides/ai-coding.gif",
         alt: "Asistente de IA ayudando a programar",
+        fit: "contain",
+      },
+      {
+        src: "/assets/slides/1749685760769.jpg",
+        alt: "Logo de Claude en fondo claro",
+        fit: "contain",
+      },
+      {
+        src: "/assets/slides/meta-ollama-llama3.png",
+        alt: "Logo de Meta junto a referencia de Llama 3 y Ollama",
+        fit: "contain",
+      },
+      {
+        src: "/assets/slides/Chat-GPT-logo.webp",
+        alt: "Logo de ChatGPT",
+        fit: "contain",
       },
     ],
   },
@@ -283,6 +334,19 @@ export const slide021 = {
   title: "Sectores e impacto en el trabajo",
   body: "En Argentina la adopción se concentra en servicios y economía del conocimiento, finanzas (scoring, fraude, analítica), salud creciente y PyMEs (automatización administrativa). Solo el 34% percibe impacto fuerte en su empleo; estudios del MIT sugieren impacto aún difuso en empleo y productividad, con reconfiguración de tareas más que reemplazo masivo inmediato.",
   highlightTerms: ["servicios", "empleo"],
+  sideColumn: {
+    title: "La nueva realidad laboral: agentes y autonomía",
+    items: [
+      {
+        heading: "Claude Code y Anthropic",
+        body: "Anthropic, empresa fundada por ex-directivos de OpenAI con foco en seguridad, desarrolla Claude Code: un agente que vive en terminal, puede leer bases de código completas, ejecutar comandos y reparar fallos de software de forma autónoma.",
+      },
+      {
+        heading: "Transformación de roles",
+        body: "En 2026 la productividad escala con IA agéntica: los profesionales pasan de ejecutar tareas aisladas a orquestar múltiples sistemas inteligentes que gestionan flujos de trabajo completos.",
+      },
+    ],
+  },
 };
 
 // Slide 22: Data
@@ -334,22 +398,88 @@ export const slide025 = {
     "Uso cotidiano todavía bajo en trabajadores",
     "Adopción organizacional intermedia",
   ],
+  sustainabilityPanel: {
+    title: "El desafío de la sostenibilidad: energía y agua",
+    points: [
+      "Consumo energético: una consulta a un modelo de IA puede consumir cerca de 10 veces más electricidad que una búsqueda tradicional en Google.",
+      "Huella hídrica: los centros de datos requieren enfriamiento constante; se estima que cada 10 a 50 consultas consumen alrededor de 500 ml de agua dulce.",
+      "En 2026, gestionar energía y agua se consolida como uno de los mayores retos éticos de la industria.",
+    ],
+  },
 };
 
 // Slide 26: Data
 export const slide026 = {
-  type: "data",
-  title: "Cuatro preguntas clave",
-  stat: "Para pensar",
-  body: "Infraestructura y oferta tecnológica: muy avanzada. Adopción organizacional: intermedia. Uso cotidiano real: bajo. Confiabilidad: suficiente para asistir, no para delegar.",
-  source: "Síntesis del deck",
+  title: "Conclusiones clave",
+  body: "Síntesis final del recorrido: de la evolución histórica a los desafíos de adopción responsable.",
+  domainCards: [
+    {
+      title: "Un punto de inflexión histórico",
+      summary:
+        "En menos de 75 años, la IA pasó de teoría académica a infraestructura global. La velocidad de cambio se acelera, no se detiene.",
+    },
+    {
+      title: "Multimodalidad y riesgo",
+      summary:
+        "La generación sintética democratiza la creatividad, pero exige nuevos marcos de verificación, regulación y alfabetización digital.",
+      tone: "risk",
+    },
+    {
+      title: "El profesional como orquestador",
+      summary:
+        "La IA agéntica redefine los roles laborales. Adaptarse implica aprender a dirigir sistemas inteligentes, no solo usarlos.",
+    },
+    {
+      title: "Sostenibilidad como prioridad",
+      summary:
+        "El impacto energético e hídrico de la IA debe integrarse en cualquier estrategia responsable de adopción tecnológica.",
+    },
+  ],
 };
 
 // Slide 27: Concept
 export const slide027 = {
   title: "IA como herramienta",
-  body: "La IA no es destino inevitable: la responsabilidad sigue siendo humana en alineación, control, marcos éticos y uso productivo.",
+  body: "La IA no es destino inevitable: la responsabilidad sigue siendo humana en alineación, control, marcos éticos, uso productivo y gestión activa de riesgos emergentes.",
   highlightTerms: ["herramienta", "responsabilidad"],
+  rightVisual: {
+    type: "media-cards",
+    layout: "landscape",
+    cards: [
+      {
+        src: "/assets/slides/papa-abrigo-balenciaga-deepfake-ia.jpg",
+        alt: "Imagen viral del Papa con abrigo blanco creada con IA",
+        fit: "cover",
+        caption:
+          "«Deepfake»: contenido visual o sonoro manipulado con IA que aparenta ser real.",
+      },
+      {
+        src: "/assets/slides/Deepfake-Barack-Obama-01-01-1.webp",
+        alt: "Ejemplo de deepfake con Barack Obama",
+        fit: "cover",
+        caption: "Caso de referencia usado para mostrar riesgos de desinformación.",
+      },
+    ],
+  },
+  domainCards: [
+    {
+      title: "El riesgo de los deepfakes",
+      summary:
+        "La clonación de voz y la generación de vídeo sintético plantean desafíos críticos para la veracidad de la información. Cuando cualquier persona puede crear audio o vídeo hiperrealista de figuras públicas, los marcos regulatorios y la alfabetización mediática se vuelven urgentes.",
+      tone: "risk",
+      note: "La Unión Europea ya exige etiquetado obligatorio de contenidos generados por IA bajo el AI Act (2024).",
+    },
+    {
+      title: "Consumo energético e huella hídrica",
+      summary:
+        "Una consulta a un modelo de IA consume ~10 veces más electricidad que una búsqueda en Google. Por cada 10–50 consultas, los servidores consumen ~500 ml de agua dulce para refrigeración.",
+      media: {
+        src: "/assets/slides/agua.jpeg",
+        alt: "Sistemas de refrigeración en infraestructura de servidores",
+        fit: "cover",
+      },
+    },
+  ],
 };
 
 // Slide 28: Section break
